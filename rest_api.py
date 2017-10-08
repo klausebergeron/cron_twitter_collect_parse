@@ -9,10 +9,10 @@ import os
 from twitter import *
 import time
 # Variables that contains the user credentials to access Twitter API 
-ACCESS_TOKEN = '3043501246-cAtrlTygdncQv3sCRfmnRLxqgNsy8seOjXtrMu4'
-ACCESS_SECRET = 'lJygQn4gcqUcbfql2D6NMAVFMStPLiLwQQBiWTKTsd4BA'
-CONSUMER_KEY = '7LQZ9AflFNt3xYbAgaP7Pj7J9'
-CONSUMER_SECRET = 'SlzzDzp6XUjXbn38CDkF2eh5uJ4H98u5S38IjLzYqz3zkysaYM'
+ACCESS_TOKEN = ''
+ACCESS_SECRET = ''
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
 
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 input_file = open("/home/bergeron/scikit-learn/scikit-learn-master/sklearn/twitter_data/data/quickClass_streaming_tweets.txt", 'r')
